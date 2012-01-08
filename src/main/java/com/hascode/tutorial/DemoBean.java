@@ -8,7 +8,7 @@ import javax.faces.bean.RequestScoped;
 @ManagedBean
 @RequestScoped
 public class DemoBean {
-	public String output() {
+	public String getOutput() {
 		return "It is " + new Date().toString();
 	}
 }
